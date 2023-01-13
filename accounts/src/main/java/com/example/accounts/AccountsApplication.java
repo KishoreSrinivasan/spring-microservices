@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @ComponentScans(@ComponentScan(basePackages = { "com.example.accounts.controller", "com.example.accounts.service" }))
 @EnableJpaRepositories("com.example.accounts.repository")
-@EntityScan("com.example.accounts.entity")
+//@EntityScan("com.example.accounts.entity")
 public class AccountsApplication {
 
 	public static void main(String[] args) {
